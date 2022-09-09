@@ -8,10 +8,20 @@
 </head>
 <body>
     <?php   
-    $myKeyword = $_POST['keyword']
+    $myKeyword = $_POST['keyword'];
+    $
+    $completePar = 'Hi. Im Jon and that is my incredible' . ' ' . $myKeyword;
+    $censured = str_replace($myKeyword, '***', $completePar);
+    if ($num)
+    
+    $completeParLen = strlen($completePar);
+    
+
     ?>
 
-    <h1>That is my Life</h1>
-    <p>Hi. I'm Jon and that is my <?php echo 'incredible' . ' ' . $myKeyword ?> </p>
+    <h1>Guess the KEYWORD number</h1>
+    <p> <?php echo $censured ?> </p>
+    <p> <?php echo 'Your paragraph have ' . $completeParLen . ' characters' ?> </p>
+    <p> <?php echo 'yO' ?></p>
 </body>
 </html>
