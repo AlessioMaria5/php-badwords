@@ -22,6 +22,10 @@
     <h1>Guess the KEYWORD number</h1>
     <p> <?php echo $censured ?> </p>
     <p> <?php echo 'Your paragraph have ' . $completeParLen . ' characters' ?> </p>
-    <p> <?php echo 'yO' ?></p>
+    <p> <?php echo 'placeholder' ?></p>
+    <form action="esito.php" method="esito.php">
+        <input type="text" name="numeroScelto">
+        <button type>
+    </form>
 </body>
 </html>
